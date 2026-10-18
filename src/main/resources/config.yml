@@ -1,0 +1,17 @@
+max-members: 5
+name-min-length: 3
+name-max-length: 12
+invite-expire-seconds: 60
+friendly-fire-default: false
+home-warmup-seconds: 5
+combat:
+  tag-seconds: 15
+  kill-on-logout: true
+  blocked-commands:
+    - /team home
+    - /t home
+    - /home
+    - /spawn
+    - /tpa
+    - /tp
+    - /warp
